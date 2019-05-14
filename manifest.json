@@ -1,0 +1,18 @@
+{
+  "name": "QR Code",
+  "version": "1.0",
+  "description": "Generates a QR code of the current URL for easy sharing of links",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16": "icon.jpg",
+    "48": "icon.jpg",
+    "128": "icon.jpg"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.jpg"
+  }
+}
